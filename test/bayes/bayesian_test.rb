@@ -30,4 +30,14 @@ class BayesianTest < Test::Unit::TestCase
     @classifier.train_uninteresting "here are some bad words, I hate you"
     assert_equal 'Uninteresting', @classifier.classify("I hate bad words and you")
   end
+
+  def test_classifications
+    @classifier.train_interesting "here are some good words. I hope you love them"
+    @classifier.train_uninteresting "here are some bad words, I hate you"
+
+    assert_equal ['Uninteresting', 'Interesting'], @classifier.classifications("I hate bad words and you").keys
+    assert_in_delta -4.1588, @classifier.classifications("I hate bad words and you").values[0], 0.0001
+    assert_in_delta -9.9804, @classifier.classifications("I hate bad words and you").values[1], 0.0001
+  end
+
 end
