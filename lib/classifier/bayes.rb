@@ -63,13 +63,13 @@ class Bayes
     score = Hash.new
     @categories.each do |category, category_words|
       score[category.to_s] = 0
-      total = category_words.values.inject(0) {|sum, element| sum+element}
+      category_words_total = sum_of_values(category_words)
       text.word_hash.each do |word, count|
-        s = category_words.has_key?(word) ? category_words[word] : 0.1
-        score[category.to_s] += Math.log(s/total.to_f)
+        word_weight = category_words.has_key?(word) ? category_words[word] : 0.1
+        score[category.to_s] += Math.log(word_weight/category_words_total.to_f)
       end
     end
-    return score
+    score
   end
 
   #
@@ -123,6 +123,16 @@ class Bayes
   end
   
   alias append_category add_category
+
+  private 
+
+    # Sum up all values in a hash
+    def sum_of_values(hsh)
+      hsh.values.inject(0) { |sum, val| sum += val }
+    end
+
+
+
 end
 
 end
