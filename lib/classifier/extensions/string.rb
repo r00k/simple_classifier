@@ -3,14 +3,14 @@
 # License::   LGPL
 
 begin
-	require 'stemmer'
+  require 'stemmer'
 rescue LoadError
-	puts "Please install stemmer from http://rubyforge.org/projects/stemmer or 'gem install stemmer'"
-	exit(-1)
+  puts "Please install stemmer from http://rubyforge.org/projects/stemmer or 'gem install stemmer'"
+  exit(-1)
 end
 
 require 'classifier/extensions/word_hash'
 
 class Object
-	def prepare_category_name; to_s.gsub("_"," ").capitalize.intern end
+  def prepare_category_name; to_s.gsub("_"," ").capitalize.intern end
 end
