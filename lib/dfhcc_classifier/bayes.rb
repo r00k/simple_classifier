@@ -2,7 +2,7 @@
 # Copyright:: Copyright (c) 2005 Lucas Carlson
 # License::   LGPL
 
-module Classifier
+module DfhccClassifier
 
   class Bayes
     # The class can be created with one or more categories, each of which will be
