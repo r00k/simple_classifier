@@ -12,7 +12,7 @@ class BayesianTest < Test::Unit::TestCase
     assert_raise(StandardError) { @classifier.train_no_category "words" }
   end
   
-  def test_bad_method
+  def test_method_missing_calls_super
     assert_raise(NoMethodError) { @classifier.forget_everything_you_know "" }
   end
   
