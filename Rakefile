@@ -46,6 +46,7 @@ begin
     gemspec.authors = ["Ben Orenstein"]
     gemspec.version = '1.3.2'
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
 end
