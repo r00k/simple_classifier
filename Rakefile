@@ -44,6 +44,7 @@ begin
     gemspec.email = "benjamin_orenstein@dfci.harvard.edu"
     gemspec.homepage = "http://www.dfhcc.harvard.edu"
     gemspec.authors = ["Ben Orenstein"]
+    gemspec.version = '1.3.2'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
