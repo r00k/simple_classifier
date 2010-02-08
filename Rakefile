@@ -44,7 +44,7 @@ begin
     gemspec.email = "benjamin_orenstein@dfci.harvard.edu"
     gemspec.homepage = "http://www.dfhcc.harvard.edu"
     gemspec.authors = ["Ben Orenstein"]
-    gemspec.version = '1.3.2'
+    gemspec.version = '1.3.3'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

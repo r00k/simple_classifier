@@ -2,9 +2,9 @@
 
 begin
   require 'rubygems'
-  require 'classifier'
+  require 'dfhcc_classifier'
 rescue
-  require 'classifier'
+  require 'dfhcc_classifier'
 end
 
 require 'madeleine'

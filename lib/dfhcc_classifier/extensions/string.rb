@@ -9,7 +9,7 @@ rescue LoadError
   exit(-1)
 end
 
-require 'classifier/extensions/word_hash'
+require 'dfhcc_classifier/extensions/word_hash'
 
 class Object
   def prepare_category_name; to_s.gsub("_"," ").capitalize.intern end
