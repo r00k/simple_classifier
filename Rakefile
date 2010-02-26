@@ -44,7 +44,6 @@ begin
     gemspec.email = "ben.orenstein@gmail.com"
     gemspec.homepage = "http://github.com/r00k/simple_classifier"
     gemspec.authors = ["Ben Orenstein", "Lucas Carlson", "David Fayram II"]
-    gemspec.version = '1.3.4'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
