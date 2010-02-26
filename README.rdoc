@@ -1,4 +1,6 @@
-== simple_classifier: Bayesian Classification without a lot of fuss
+= simple_classifier
+
+Bayesian Classification without a lot of fuss
 
 == Installation
 
@@ -15,12 +17,12 @@ simple_classifier depends on Martin Porter's stemmer gem, which should be instal
     
 === More info on Bayesian Classification
 
-* http://www.process.com/precisemail/bayesian_filtering.htm
-* http://en.wikipedia.org/wiki/Bayesian_filtering
-* http://www.paulgraham.com/spam.html
+* [http://www.process.com/precisemail/bayesian_filtering.htm]
+* [http://en.wikipedia.org/wiki/Bayesian_filtering]
+* [http://www.paulgraham.com/spam.html]
 
 == Authors    
-* Ben Orenstein (mailto:ben.orenstein@gmail.com)
-* Lucas Carlson  (mailto:lucas@rufy.com)
+* Ben Orenstein  ben.orenstein@gmail.com
+* Lucas Carlson  lucas@rufy.com
 
 This library is released under the terms of the GNU LGPL. See LICENSE for more details.
