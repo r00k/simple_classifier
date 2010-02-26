@@ -5,25 +5,22 @@
 
 Gem::Specification.new do |s|
   s.name = %q{simple_classifier}
-  s.version = "2.0.1"
+  s.version = "2.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ben Orenstein", "Lucas Carlson", "David Fayram II"]
   s.date = %q{2010-02-26}
   s.email = %q{ben.orenstein@gmail.com}
-  s.executables = ["bayes.rb", "summarize.rb"]
   s.extra_rdoc_files = [
     "LICENSE",
-     "README"
+     "README.rdoc"
   ]
   s.files = [
     ".gitignore",
      "LICENSE",
-     "README",
+     "README.rdoc",
      "Rakefile",
      "VERSION",
-     "bin/bayes.rb",
-     "bin/summarize.rb",
      "install.rb",
      "lib/simple_classifier.rb",
      "lib/simple_classifier/bayes.rb",
