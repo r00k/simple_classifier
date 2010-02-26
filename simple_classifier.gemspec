@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{simple_classifier}
-  s.version = "2.0.0"
+  s.version = "2.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ben Orenstein", "Lucas Carlson", "David Fayram II"]
@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
      "README"
   ]
   s.files = [
-    "LICENSE",
+    ".gitignore",
+     "LICENSE",
      "README",
      "Rakefile",
      "VERSION",
@@ -28,6 +29,7 @@ Gem::Specification.new do |s|
      "lib/simple_classifier/bayes.rb",
      "lib/simple_classifier/extensions/string.rb",
      "lib/simple_classifier/extensions/word_hash.rb",
+     "simple_classifier.gemspec",
      "test/bayes/bayesian_test.rb",
      "test/extensions/word_hash_test.rb",
      "test/test_helper.rb"
