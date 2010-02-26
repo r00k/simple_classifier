@@ -44,6 +44,7 @@ begin
     gemspec.email = "ben.orenstein@gmail.com"
     gemspec.homepage = "http://github.com/r00k/simple_classifier"
     gemspec.authors = ["Ben Orenstein", "Lucas Carlson", "David Fayram II"]
+    gemspec.add_dependency 'stemmer'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
