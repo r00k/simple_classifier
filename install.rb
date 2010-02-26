@@ -18,8 +18,8 @@ unless $sitedir
   end
 end
 
-makedirs = %w{ dfhcc_classifier }
-makedirs = %w{ dfhcc_classifier/extensions }
+makedirs = %w{ simple_classifier }
+makedirs = %w{ simple_classifier/extensions }
 makedirs.each {|f| File::makedirs(File.join($sitedir, *f.split(/\//)))}
 
 Dir.chdir("lib")

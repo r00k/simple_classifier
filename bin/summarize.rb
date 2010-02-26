@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
 begin
-        require 'rubygems'
-        require 'dfhcc_classifier'
+  require 'rubygems'
+  require 'simple_classifier'
 rescue
-        require 'dfhcc_classifier'
+  require 'simple_classifier'
 end
 
 require 'open-uri'

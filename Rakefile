@@ -29,7 +29,7 @@ end
 # Genereate the RDoc documentation
 desc "Create documentation"
 Rake::RDocTask.new("doc") { |rdoc|
-  rdoc.title = "Ruby Classifier - Bayesian and LSI classification library"
+  rdoc.title = "simple_classifier - A simple Bayesian classifier"
   rdoc.rdoc_dir = 'html'
   rdoc.rdoc_files.include('README')
   rdoc.rdoc_files.include('lib/**/*.rb')
@@ -39,12 +39,12 @@ desc "Generate gemspec with jeweler"
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "dfhcc_classifier"
+    gemspec.name = "simple_classifier"
     gemspec.summary = "A simple bayesian classifier"
-    gemspec.email = "benjamin_orenstein@dfci.harvard.edu"
-    gemspec.homepage = "http://www.dfhcc.harvard.edu"
-    gemspec.authors = ["Ben Orenstein"]
-    gemspec.version = '1.3.3'
+    gemspec.email = "ben.orenstein@gmail.com"
+    gemspec.homepage = "http://github.com/r00k/simple_classifier"
+    gemspec.authors = ["Ben Orenstein", "Lucas Carlson", "David Fayram II"]
+    gemspec.version = '1.3.4'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

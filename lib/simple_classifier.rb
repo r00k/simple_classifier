@@ -25,5 +25,5 @@
 # License::   LGPL
 
 require 'rubygems'
-require 'dfhcc_classifier/extensions/string'
-require 'dfhcc_classifier/bayes'
+require 'simple_classifier/extensions/string'
+require 'simple_classifier/bayes'
