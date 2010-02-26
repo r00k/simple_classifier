@@ -17,9 +17,9 @@ simple_classifier depends on Martin Porter's stemmer gem, which should be instal
     
 === More info on Bayesian Classification
 
-* [http://www.process.com/precisemail/bayesian_filtering.htm]
-* [http://en.wikipedia.org/wiki/Bayesian_filtering]
-* [http://www.paulgraham.com/spam.html]
+* http://www.process.com/precisemail/bayesian_filtering.htm
+* http://en.wikipedia.org/wiki/Bayesian_filtering
+* http://www.paulgraham.com/spam.html
 
 == Authors    
 * Ben Orenstein  ben.orenstein@gmail.com
