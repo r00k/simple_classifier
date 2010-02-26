@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "install.rb",
      "lib/simple_classifier.rb",
      "lib/simple_classifier/bayes.rb",
      "lib/simple_classifier/extensions/string.rb",
