@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/../test_helper'
 class BayesianTest < Test::Unit::TestCase
   def setup
-    @classifier = DfhccClassifier::Bayes.new 'Interesting', 'Uninteresting'
+    @classifier = SimpleClassifier::Bayes.new 'Interesting', 'Uninteresting'
   end
   
   def test_good_training
